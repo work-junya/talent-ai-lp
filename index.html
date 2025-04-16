@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TalentAI - 採用業務を革新するAI人材マッチングプラットフォーム</title>
+    <meta name="description" content="TalentAIは、AIを活用した次世代の人材マッチングプラットフォームです。採用業務の効率化と最適な人材発掘を実現します。">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/benefits-styles.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logo.png" alt="TalentAI Logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">特徴</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#benefits">メリット</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#functions">機能</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">料金</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary rounded-pill ms-lg-3" href="#waiting-list">先行登録する</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-text">
+                    <h1 class="display-4 fw-bold mb-4">採用業務を<span class="text-gradient">AI</span>で革新する</h1>
+                    <p class="lead mb-4">TalentAIは、最先端のAI技術を活用した人材マッチングプラットフォームです。採用担当者の業務効率化と最適な人材発掘を同時に実現します。</p>
+                    <div class="hero-cta">
+                        <a href="#waiting-list" class="btn btn-primary btn-lg rounded-pill me-3">無料で先行登録する</a>
+                        <a href="#demo" class="btn btn-outline-secondary btn-lg rounded-pill">デモを見る</a>
+                    </div>
+                    <div class="mt-4 hero-stats">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="stat-item">
+                                    <h3>85%</h3>
+                                    <p>採用工数削減</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="stat-item">
+                                    <h3>3倍</h3>
+                                    <p>マッチング精度</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="stat-item">
+                                    <h3>60%</h3>
+                                    <p>コスト削減</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 hero-image">
+                    <img src="assets/images/hero-image.png" alt="TalentAI Platform" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="hero-shape">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f8f9fa" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,149.3C960,160,1056,160,1152,138.7C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </div>
+    </section>
+
+    <!-- 特徴セクション -->
+    <section class="features bg-light py-5" id="features">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h6 class="text-primary text-uppercase">特徴</h6>
+                <h2 class="display-5 fw-bold">採用業務における<span class="text-gradient">3つの課題</span>を解決</h2>
+                <p class="lead">TalentAIは人事担当者が直面する採用業務の課題を解決します</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>時間の課題</h3>
+                        <p>膨大な応募者の選考に時間がかかり、本来の業務に集中できない。TalentAIは選考プロセスを自動化し、工数を85%削減します。</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>マッチングの課題</h3>
+                        <p>スキルや経験だけでなく、企業文化との相性も重要。AIが多角的な視点から最適な候補者を提案します。</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h3>コストの課題</h3>
+                        <p>採用コストが高騰し、ROIが見えにくい。TalentAIは採用コストを60%削減しながら、質の高い人材確保を実現します。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- メリットセクション -->
+    <section id="benefits" class="benefits py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h6 class="text-primary text-uppercase">メリット</h6>
+                <h2 class="display-5 fw-bold">TalentAIがもたらす<span class="text-gradient">5つの革新的メリット</span></h2>
+                <p class="lead">データ駆動型AIが実現する次世代の人材採用・マッチングプラットフォーム</p>
+            </div>
+            
+            <!-- メリット1 -->
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6">
+                    <img src="assets/images/analytics_chart.jpeg" alt="採用コスト削減" class="img-fluid rounded-4 shadow-lg">
+                </div>
+                <div class="col-lg-6">
+                    <div class="benefit-content ps-lg-4">
+                        <div class="benefit-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h3>採用コスト60%削減</h3>
+                        <p>TalentAIの高度なAIマッチングエンジンにより、採用活動にかかる総コストを平均60%削減。採用広告費、選考工数、ミスマッチによる再採用コストを大幅に削減できます。</p>
+                        <div class="benefit-stats d-flex mt-4">
+                            <div class="stat me-4">
+                                <span class="stat-value">60%</span>
+                                <span class="stat-label">コスト削減</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">3.2倍</span>
+                                <span class="stat-label">ROI向上</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- メリット2 -->
+            <div class="row align-items-center mb-5 flex-lg-row-reverse">
+                <div class="col-lg-6">
+                    <img src="assets/images/business_meeting.jpeg" alt="採用期間短縮" class="img-fluid rounded-4 shadow-lg">
+                </div>
+                <div class="col-lg-6">
+                    <div class="benefit-content pe-lg-4">
+                        <div class="benefit-icon">
+                            <i class="fas fa-hourglass-half"></i>
+                        </div>
+                        <h3>採用期間45%短縮</h3>
+                        <p>AIによる候補者の自動スクリーニングと優先順位付けにより、採用サイクルを平均45%短縮。優秀な人材を競合他社より先に獲得できる競争優位性を実現します。</p>
+                        <div class="benefit-stats d-flex mt-4">
+                            <div class="stat me-4">
+                                <span class="stat-value">45%</span>
+                                <span class="stat-label">時間短縮</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">2.8倍</span>
+                                <span class="stat-label">効率向上</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- メリット3-5（カード形式） -->
+            <div class="row g-4 mt-5">
+                <div class="col-md-4">
+                    <div class="benefit-card h-100 premium-card">
+                        <div class="icon-box">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>マッチング精度92%</h3>
+                        <p>独自の深層学習アルゴリズムが、スキル、経験、性格特性、企業文化との適合性を分析し、92%の精度で最適な人材マッチングを実現。離職率を58%低減します。</p>
+                        <div class="card-stats mt-3">
+                            <span class="highlight">92% マッチング精度</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="benefit-card h-100 premium-card">
+                        <div class="icon-box">
+                            <i class="fas fa-people-group"></i>
+                        </div>
+                        <h3>多様性37%向上</h3>
+                        <p>バイアス排除AIテクノロジーにより、採用プロセスから無意識の偏見を排除。多様な人材の採用が平均37%向上し、イノベーションと組織パフォーマンスを促進します。</p>
+                        <div class="card-stats mt-3">
+                            <span class="highlight">37% 多様性向上</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="benefit-card h-100 premium-card">
+                        <div class="icon-box">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>データ駆動型意思決定</h3>
+                        <p>リアルタイムの採用分析ダッシュボードと予測モデルにより、採用トレンド、市場動向、候補者の行動パターンを可視化。戦略的な採用計画の立案を支援します。</p>
+                        <div class="card-stats mt-3">
+                            <span class="highlight">100% データ活用</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- デモセクション -->
+    <section class="demo bg-gradient py-5" id="demo">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="demo-content text-white">
+                        <h2 class="fw-bold mb-4">TalentAIの<br>実際の動作をご覧ください</h2>
+                        <p class="mb-4">最先端のAI技術がどのように採用業務を変革するか、デモ動画でご確認いただけます。</p>
+                        <a href="#" class="btn btn-light btn-lg rounded-pill">
+                            <i class="fas fa-play me-2"></i> デモを再生
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="demo-video">
+                        <img src="assets/images/demo-preview.png" alt="デモ動画" class="img-fluid rounded-4 shadow-lg">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 機能セクション -->
+    <section class="functions py-5" id="functions">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h6 class="text-primary text-uppercase">機能</h6>
+                <h2 class="display-5 fw-bold">TalentAIの<span class="text-gradient">主要機能</span></h2>
+                <p class="lead">採用プロセスの全段階をサポートする包括的な機能群</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="function-card">
+                        <div class="function-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>AI選考アシスタント</h3>
+                        <p>履歴書や職務経歴書を自動解析し、求める人材像との適合度を評価。優先度の高い候補者を自動でピックアップします。</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="function-card">
+                        <div class="function-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>AIチャットボット面接</h3>
+                        <p>初期スクリーニングをAIチャットボットが実施。基本的な質問への回答を分析し、次のステップに進むべき候補者を選定します。</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="function-card">
+                        <div class="function-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h3>選考プロセス管理</h3>
+                        <p>選考の各段階を一元管理。ステータス更新や次のアクションが自動で提案され、候補者の取りこぼしを防ぎます。</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="function-card">
+                        <div class="function-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>適性診断ツール</h3>
+                        <p>AIによる性格・適性診断で、職場環境との相性や長期的な成長可能性を予測。ミスマッチによる早期離職を防止します。</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="function-card">
+                        <div class="function-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <h3>採用分析ダッシュボード</h3>
+                        <p>採用活動の全データをリアルタイムで可視化。応募者数、選考通過率、採用コストなど、重要KPIを一目で把握できます。</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="function-card">
+                        <div class="function-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h3>求人原稿最適化</h3>
+                        <p>AIが求人原稿を分析し、より多くの適切な応募を集めるための改善提案を行います。業界トレンドも反映されます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 料金プランセクション -->
+    <section class="pricing bg-light py-5" id="pricing">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h6 class="text-primary text-uppercase">料金プラン</h6>
+                <h2 class="display-5 fw-bold">あらゆる企業規模に<span class="text-gradient">対応</span>したプラン</h2>
+                <p class="lead">企業規模や採用ニーズに合わせて最適なプランをお選びいただけます</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>スタンダード</h3>
+                            <div class="price">
+                                <span class="currency">¥</span>
+                                <span class="amount">49,800</span>
+                                <span class="period">/月</span>
+                            </div>
+                            <p>中小企業・スタートアップ向け</p>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> 月間50件の履歴書解析</li>
+                                <li><i class="fas fa-check"></i> AI選考アシスタント</li>
+                                <li><i class="fas fa-check"></i> 選考プロセス管理</li>
+                                <li><i class="fas fa-check"></i> 基本的な採用分析</li>
+                                <li><i class="fas fa-times"></i> AIチャットボット面接</li>
+                                <li><i class="fas fa-times"></i> 適性診断ツール</li>
+                                <li><i class="fas fa-times"></i> 求人原稿最適化</li>
+                                <li><i class="fas fa-times"></i> カスタムレポート</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#waiting-list" class="btn btn-outline-primary btn-lg w-100 rounded-pill">先行登録する</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="pricing-card popular">
+                        <div class="popular-badge">人気</div>
+                        <div class="pricing-header">
+                            <h3>ビジネス</h3>
+                            <div class="price">
+                                <span class="currency">¥</span>
+                                <span class="amount">99,800</span>
+                                <span class="period">/月</span>
+                            </div>
+                            <p>中堅企業・事業部単位向け</p>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> 月間200件の履歴書解析</li>
+                                <li><i class="fas fa-check"></i> AI選考アシスタント</li>
+                                <li><i class="fas fa-check"></i> 選考プロセス管理</li>
+                                <li><i class="fas fa-check"></i> 詳細な採用分析</li>
+                                <li><i class="fas fa-check"></i> AIチャットボット面接</li>
+                                <li><i class="fas fa-check"></i> 適性診断ツール</li>
+                                <li><i class="fas fa-times"></i> 求人原稿最適化</li>
+                                <li><i class="fas fa-times"></i> カスタムレポート</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#waiting-list" class="btn btn-primary btn-lg w-100 rounded-pill">先行登録する</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>エンタープライズ</h3>
+                            <div class="price">
+                                <span class="contact">お問い合わせ</span>
+                            </div>
+                            <p>大企業・全社導入向け</p>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> 無制限の履歴書解析</li>
+                                <li><i class="fas fa-check"></i> AI選考アシスタント</li>
+                                <li><i class="fas fa-check"></i> 選考プロセス管理</li>
+                                <li><i class="fas fa-check"></i> 高度な採用分析</li>
+                                <li><i class="fas fa-check"></i> AIチャットボット面接</li>
+                                <li><i class="fas fa-check"></i> 適性診断ツール</li>
+                                <li><i class="fas fa-check"></i> 求人原稿最適化</li>
+                                <li><i class="fas fa-check"></i> カスタムレポート</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#waiting-list" class="btn btn-outline-primary btn-lg w-100 rounded-pill">お問い合わせ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- お客様の声セクション -->
+    <section class="testimonials py-5" id="testimonials">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h6 class="text-primary text-uppercase">お客様の声</h6>
+                <h2 class="display-5 fw-bold">導入企業からの<span class="text-gradient">評価</span></h2>
+                <p class="lead">TalentAIを導入いただいた企業様からの声をご紹介します</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>「採用業務の工数が大幅に削減され、戦略的な人材獲得に注力できるようになりました。特にAI選考アシスタントの精度の高さには驚かされます。」</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="assets/images/testimonial-1.jpg" alt="田中様" class="testimonial-avatar">
+                                <div class="testimonial-info">
+                                    <h4>田中 健太郎様</h4>
+                                    <p>株式会社テクノイノベーション<br>人事部長</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>「以前は見逃していた優秀な人材を発掘できるようになりました。AIの多角的な分析により、書類上では分からない候補者の潜在能力を評価できることが大きなメリットです。」</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="assets/images/testimonial-2.jpg" alt="佐藤様" class="testimonial-avatar">
+                                <div class="testimonial-info">
+                                    <h4>佐藤 美咲様</h4>
+                                    <p>グローバルコンサルティング株式会社<br>採用マネージャー</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>「採用コストが60%削減され、ROIが大幅に向上しました。データ駆動型の採用戦略により、効果的な採用チャネルに集中投資できるようになったことが大きいです。」</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="assets/images/testimonial-3.jpg" alt="鈴木様" class="testimonial-avatar">
+                                <div class="testimonial-info">
+                                    <h4>鈴木 大輔様</h4>
+                                    <p>フューチャーテック株式会社<br>取締役 人事担当</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- よくある質問セクション -->
+    <section class="faq bg-light py-5" id="faq">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h6 class="text-primary text-uppercase">FAQ</h6>
+                <h2 class="display-5 fw-bold">よくある<span class="text-gradient">ご質問</span></h2>
+                <p class="lead">TalentAIに関するよくあるご質問にお答えします</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    導入にはどれくらいの期間がかかりますか？
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    標準的な導入期間は2〜4週間です。既存の採用システムとの連携が必要な場合は、追加で1〜2週間かかる場合があります。導入支援チームが全プロセスをサポートしますので、スムーズな移行が可能です。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    既存の採用システムと連携できますか？
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    はい、主要な採用管理システムやHRテックツールとのAPI連携に対応しています。具体的には、Workday、SAP SuccessFactors、Taleo、Lever、Greenhouse、Jobviteなどと連携可能です。カスタム連携も承っておりますので、お気軽にご相談ください。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    AIの判断にバイアスはありませんか？
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    TalentAIは、バイアス軽減のための特別なアルゴリズムを採用しています。多様な背景を持つ候補者データで学習させ、定期的な監査を実施しています。また、AIはあくまで意思決定支援ツールであり、最終判断は人事担当者が行うことを推奨しています。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    個人情報の取り扱いは安全ですか？
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    はい、TalentAIはGDPR、CCPA、個人情報保護法などのグローバルな規制に準拠しています。データは暗号化され、アクセス制御が厳格に管理されています。また、SOC2 Type II、ISO 27001の認証を取得しており、定期的なセキュリティ監査を実施しています。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    カスタマイズは可能ですか？
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    はい、企業ごとの採用基準や評価項目に合わせたカスタマイズが可能です。特にエンタープライズプランでは、業界特有のニーズや企業文化に合わせた高度なカスタマイズをご提供しています。導入時のコンサルティングで最適な設定をご提案いたします。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 先行登録セクション -->
+    <section class="waiting-list py-5" id="waiting-list">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="waiting-list-content">
+                        <h6 class="text-primary text-uppercase">先行登録</h6>
+                        <h2 class="display-5 fw-bold mb-4">今なら<span class="text-gradient">3ヶ月間無料</span>でご利用いただけます</h2>
+                        <p class="lead mb-4">正式リリース前の先行登録特典として、3ヶ月間の無料利用権と専任コンサルタントによる導入サポートをご提供します。</p>
+                        <div class="waiting-list-benefits">
+                            <div class="benefit-item">
+                                <i class="fas fa-gift"></i>
+                                <p>3ヶ月間無料利用</p>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-user-tie"></i>
+                                <p>専任コンサルタント</p>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <p>無料トレーニング</p>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-rocket"></i>
+                                <p>優先アップデート</p>
+                            </div>
+                        </div>
+                        <div class="waiting-list-counter">
+                            <p>残り先行登録枠：<span class="counter">47</span>/100</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 53%" aria-valuenow="53" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="waiting-list-form">
+                        <h3 class="mb-4">無料先行登録フォーム</h3>
+                        <form id="waitingListForm">
+                            <div class="mb-3">
+                                <label for="companyName" class="form-label">会社名 <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="companyName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">お名前 <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">メールアドレス <span class="text-danger">*</span></label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="position" class="form-label">役職 <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="position" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="employees" class="form-label">従業員数 <span class="text-danger">*</span></label>
+                                <select class="form-select" id="employees" required>
+                                    <option value="" selected disabled>選択してください</option>
+                                    <option value="1-50">1-50名</option>
+                                    <option value="51-300">51-300名</option>
+                                    <option value="301-1000">301-1000名</option>
+                                    <option value="1001+">1001名以上</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">ご質問・ご要望（任意）</label>
+                                <textarea class="form-control" id="message" rows="3"></textarea>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="privacyPolicy" required>
+                                <label class="form-check-label" for="privacyPolicy">プライバシーポリシーに同意します <span class="text-danger">*</span></label>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg w-100 rounded-pill">無料で先行登録する</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="assets/images/logo-white.png" alt="TalentAI Logo" class="footer-logo mb-4">
+                    <p>TalentAIは、最先端のAI技術を活用した人材マッチングプラットフォームです。採用業務の効率化と最適な人材発掘を実現します。</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5>サービス</h5>
+                    <ul class="footer-links">
+                        <li><a href="#features">特徴</a></li>
+                        <li><a href="#benefits">メリット</a></li>
+                        <li><a href="#functions">機能</a></li>
+                        <li><a href="#pricing">料金プラン</a></li>
+                        <li><a href="#faq">よくある質問</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5>会社情報</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">会社概要</a></li>
+                        <li><a href="#">ミッション</a></li>
+                        <li><a href="#">チーム</a></li>
+                        <li><a href="#">採用情報</a></li>
+                        <li><a href="#">パートナー</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5>サポート</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">ヘルプセンター</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                        <li><a href="#">導入事例</a></li>
+                        <li><a href="#">リソース</a></li>
+                        <li><a href="#">ブログ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5>法的情報</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">利用規約</a></li>
+                        <li><a href="#">プライバシーポリシー</a></li>
+                        <li><a href="#">セキュリティ</a></li>
+                        <li><a href="#">コンプライアンス</a></li>
+                        <li><a href="#">特定商取引法</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <p class="mb-0">© 2025 TalentAI Inc. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">〒100-0001 東京都千代田区丸の内1-1-1 丸の内センタービル10F</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/image-generator.js"></script>
+</body>
+</html>
